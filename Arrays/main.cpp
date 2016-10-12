@@ -5,7 +5,7 @@
 
 int main(){
 	//load the text file and put it into a single string:
-	std::ifstream in("d:\\output.dat");
+	std::ifstream in("d:\\output.txt");
 	std::stringstream buffer;
 	buffer << in.rdbuf();
 	std::string test = buffer.str();
